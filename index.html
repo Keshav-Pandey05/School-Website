@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Subhash Public School — Nurturing Excellence Since 1985. Premier education in science, arts, and leadership." />
+  <title>Subhash Public School</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar transparent" id="navbar">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Subhash Public School Home">
+        <div class="logo-icon">G</div>
+        <div class="logo-text">
+          <span class="logo-name"> Subhash Public School</span>
+          <span class="logo-tagline">Excellence in Education</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="nav-menu" role="menubar">
+        <li class="nav-item" role="none">
+          <a href="index.html" class="nav-link active" role="menuitem">Home</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a href="about.html" class="nav-link" role="menuitem">About Us</a>
+        </li>
+
+        <!-- Signatories Dropdown -->
+        <li class="nav-item" role="none">
+          <a href="#" class="nav-link" role="menuitem" aria-haspopup="true">
+            Signatories <span class="chevron">▾</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Signatories">
+            <a href="director-message.html" role="menuitem">Director's Message</a>
+            <a href="principal-message.html" role="menuitem">Principal's Message</a>
+          </div>
+        </li>
+
+        <!-- Photos Dropdown -->
+        <li class="nav-item" role="none">
+          <a href="#" class="nav-link" role="menuitem" aria-haspopup="true">
+            Photos <span class="chevron">▾</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Photos">
+            <a href="gallery.html" role="menuitem">Gallery</a>
+            <a href="infrastructure.html" role="menuitem">Infrastructure</a>
+          </div>
+        </li>
+
+        <li class="nav-item" role="none">
+          <a href="documents.html" class="nav-link" role="menuitem">Documents</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a href="#contact" class="nav-link btn btn-primary" style="padding:10px 22px;" role="menuitem">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== MOBILE MENU ==================== -->
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+
+    <span class="mobile-section-title">▸ Signatories</span>
+    <div class="mobile-submenu" style="display:none;">
+      <a href="director-message.html">Director's Message</a>
+      <a href="principal-message.html">Principal's Message</a>
+    </div>
+
+    <span class="mobile-section-title">▸ Photos</span>
+    <div class="mobile-submenu" style="display:none;">
+      <a href="gallery.html">Gallery</a>
+      <a href="infrastructure.html">Infrastructure</a>
+    </div>
+
+    <a href="documents.html">Documents</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="home" aria-label="Hero Section">
+    <div class="hero-bg">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-shape hero-shape-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">Estd. 1985 · CBSE Affiliated · ISO Certified</div>
+
+        <h1 class="hero-title">
+          Nurturing<br>
+          <span class="highlight">Excellence</span>,<br>
+          Inspiring Futures
+        </h1>
+
+        <p class="hero-subtitle">
+          At Subhash Public School, we blend academic rigour with creative freedom to shape confident, compassionate, and globally-aware leaders of tomorrow.
+        </p>
+
+        <div class="hero-actions">
+          <a href="about.html" class="btn btn-primary">Explore Our School</a>
+          <a href="#contact" class="btn btn-outline">Admissions 2025–26</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-text">Scroll</span>
+      <div class="scroll-dot"></div>
+      <div class="scroll-dot"></div>
+      <div class="scroll-dot"></div>
+    </div>
+
+    <!-- Hero Stats -->
+    <div class="hero-stats" aria-label="School Statistics">
+      <div class="container">
+        <div class="stat-item">
+          <div class="stat-number" data-target="3200" data-suffix="+">0+</div>
+          <div class="stat-label">Students Enrolled</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="180" data-suffix="+">0+</div>
+          <div class="stat-label">Qualified Faculty</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="38" data-suffix="">0</div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="98" data-suffix="%">0%</div>
+          <div class="stat-label">Board Pass Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== ABOUT PREVIEW ==================== -->
+  <section class="about-preview section-padding" id="about" aria-label="About Us Preview">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image side -->
+        <div class="about-image-wrapper fade-in-left">
+          <img
+            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80"
+            alt="Students collaborating in a modern classroom"
+            class="about-img-main"
+          />
+          <div class="about-badge-overlay">
+            <div class="number">A+</div>
+            <div class="label">CBSE Grade</div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80"
+            alt="School library"
+            class="about-img-accent"
+          />
+        </div>
+
+        <!-- Content side -->
+        <div class="about-content fade-in-right">
+          <div class="section-header">
+            <span class="section-label">Who We Are</span>
+            <h2 class="section-title">A Legacy of Learning &amp; Character</h2>
+          </div>
+
+          <p>
+            Founded in 1985, Subhash Public School has been a beacon of quality education in the region. We are affiliated with the Central Board of Secondary Education (CBSE) and pride ourselves on a holistic approach that goes far beyond textbooks.
+          </p>
+          <p>
+            Our sprawling 15-acre campus is home to state-of-the-art labs, a well-stocked library, performing arts facilities, and Olympic-standard sports grounds — everything a young learner needs to thrive.
+          </p>
+
+          <ul class="values-list">
+            <li class="value-item">
+              <div class="value-icon">🎓</div>
+              Academic Excellence through personalised learning
+            </li>
+            <li class="value-item">
+              <div class="value-icon">🌱</div>
+              Character Building rooted in ethics and empathy
+            </li>
+            <li class="value-item">
+              <div class="value-icon">🌍</div>
+              Global Mindset with local values
+            </li>
+            <li class="value-item">
+              <div class="value-icon">🏆</div>
+              Competitive Sports &amp; Cultural Programs
+            </li>
+          </ul>
+
+          <a href="about.html" class="btn btn-dark">Learn More About Us →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== HIGHLIGHTS / FEATURES ==================== -->
+  <section class="highlights section-padding" aria-label="School Highlights">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Why Choose Us</span>
+        <h2 class="section-title" style="color:#fff;">What Makes Us Different</h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.6);">
+          We go beyond academics to nurture well-rounded individuals ready for the world.
+        </p>
+      </div>
+
+      <div class="features-grid stagger">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🔬</div>
+          <h3>Advanced Science Labs</h3>
+          <p>Fully equipped physics, chemistry, and biology laboratories with latest instruments that bring science to life for every student.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">💻</div>
+          <h3>Digital Learning Hub</h3>
+          <p>Smart classrooms, high-speed internet, and computer labs running industry-standard software to prepare students for the digital era.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🎨</div>
+          <h3>Creative Arts Centre</h3>
+          <p>Music, dance, theatre, visual arts — our dedicated performing arts block nurtures every student's creative spark.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">⚽</div>
+          <h3>World-Class Sports</h3>
+          <p>Olympic-size swimming pool, cricket ground, basketball courts, and professional coaching to build champions on and off the field.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">📚</div>
+          <h3>Resource-Rich Library</h3>
+          <p>Over 40,000 titles, digital journals, and a quiet research space that fosters independent learning and intellectual curiosity.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🤝</div>
+          <h3>Counselling &amp; Welfare</h3>
+          <p>Dedicated counsellors, health centre, and mentorship programmes ensure every child's emotional well-being and academic success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== IMAGE GALLERY PREVIEW ==================== -->
+  <section class="gallery-preview section-padding" aria-label="Gallery Preview">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Life at Subhash</span>
+        <h2 class="section-title">Moments that Matter</h2>
+        <p class="section-subtitle">A glimpse into the vibrant campus life, events, and everyday learning.</p>
+      </div>
+
+      <div class="gallery-strip fade-in">
+        <div class="strip-item">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80" alt="Annual Sports Day" loading="lazy" />
+          <div class="strip-overlay"><span class="strip-label">Annual Sports Day</span></div>
+        </div>
+        <div class="strip-item">
+          <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="Science Fair" loading="lazy" />
+          <div class="strip-overlay"><span class="strip-label">Science Fair</span></div>
+        </div>
+        <div class="strip-item">
+          <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=600&q=80" alt="Cultural Festival" loading="lazy" />
+          <div class="strip-overlay"><span class="strip-label">Cultural Festival</span></div>
+        </div>
+        <div class="strip-item">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80" alt="Classroom Learning" loading="lazy" />
+          <div class="strip-overlay"><span class="strip-label">Classroom Learning</span></div>
+        </div>
+        <div class="strip-item">
+          <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=600&q=80" alt="Library Hour" loading="lazy" />
+          <div class="strip-overlay"><span class="strip-label">Library Hour</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-cta fade-in">
+        <a href="gallery.html" class="btn btn-dark">View Full Gallery →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CTA SECTION ==================== -->
+  <section class="cta-section" aria-label="Admissions Call to Action">
+    <div class="container">
+      <div class="cta-content fade-in">
+        <h2>Begin Your Child's Journey to Excellence</h2>
+        <p>Admissions open for Academic Year 2025–26. Limited seats available across all grades. Apply today to secure your child's place at .</p>
+        <div class="cta-actions">Subhash</div>
+          <a href="#contact" class="btn btn-dark">Apply for Admission</a>
+          <a href="documents.html" class="btn btn-outline" style="color:var(--navy);border-color:var(--navy);">Download Prospectus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section class="contact-section" id="contact" aria-label="Contact Us">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">We'd Love to Hear from You</h2>
+        <p class="section-subtitle">Whether you have questions about admissions, curriculum, or school life — our team is here to help.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Panel -->
+        <div class="contact-info-panel fade-in-left">
+          <h3>Contact Information</h3>
+          <p>Reach us through any of the channels below, or fill in the form and we'll get back to you within one working day.</p>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div class="contact-detail-text">
+              <h5>Address</h5>
+              <p>1420, near Upasana Guest House, Y Block, Kidwai Nagar, Kanpur, Uttar Pradesh <br> – 208011</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📞</div>
+            <div class="contact-detail-text">
+              <h5>Phone</h5>
+              <p>076170 82020<br></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            <div class="contact-detail-text">
+              <h5>Email</h5>
+              <p>info@subhashschool.edu.in<br>admissions@subhashschool.edu.in</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">🕐</div>
+            <div class="contact-detail-text">
+              <h5>Office Hours</h5>
+              <p>Mon – Fri: 8:00 AM – 4:00 PM<br>Sat: 9:00 AM – 1:00 PM</p>
+            </div>
+          </div>
+
+          <div class="social-links" style="margin-top:32px;">
+            <a href="#" class="social-link" aria-label="Facebook">&#xFB00;</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          </div>
+        </div>
+
+        <!-- Form Panel -->
+        <div class="contact-form-panel fade-in-right">
+          <h3>Send Us a Message</h3>
+          <p>Fill in the form below and our admissions team will contact you shortly.</p>
+
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="parent-name">Parent's Name *</label>
+                <input type="text" id="parent-name" name="parent_name" placeholder="Enter your name" required />
+              </div>
+              <div class="form-group">
+                <label for="student-name">Student's Name *</label>
+                <input type="text" id="student-name" name="student_name" placeholder="Enter student's name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="class-applying">Applying for Class *</label>
+              <select id="class-applying" name="class" required>
+                <option value="">Select a class</option>
+                <option>Nursery / KG</option>
+                <option>Class I – V</option>
+                <option>Class VI – VIII</option>
+                <option>Class IX – X</option>
+                <option>Class XI – XII (Science)</option>
+                <option>Class XI – XII (Commerce)</option>
+                <option>Class XI – XII (Arts)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Any specific queries or requirements…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" aria-label="Site Footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:0;">
+            <div class="logo-icon">G</div>
+            <div class="logo-text">
+              <span class="logo-name">Subhash Public School</span>
+              <span class="logo-tagline">Excellence in Education</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Nurturing curious minds and confident hearts since 1985. CBSE Affiliated | ISO 9001:2015 Certified | Estd. New Delhi.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">◉</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="infrastructure.html">Infrastructure</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Academics -->
+        <div class="footer-col">
+          <h4>Academics</h4>
+          <ul class="footer-links">
+            <li><a href="#">Primary School</a></li>
+            <li><a href="#">Middle School</a></li>
+            <li><a href="#">Secondary School</a></li>
+            <li><a href="#">Senior Secondary</a></li>
+            <li><a href="#">Co-Curricular</a></li>
+            <li><a href="#">Admissions</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span class="contact-text">1420, near Upasana Guest House, Y Block, Kidwai Nagar, Kanpur, Uttar Pradesh 208011 – India</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span class="contact-text">076170 82020</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <span class="contact-text">info@subhashschool.edu.in</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Subhash Public School. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

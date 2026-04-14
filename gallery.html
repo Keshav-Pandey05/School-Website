@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Subhash Public School</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">G</div>
+        <div class="logo-text">
+          <span class="logo-name">Subhash Public School</span>
+          <span class="logo-tagline">Excellence in Education</span>
+        </div>
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Signatories <span class="chevron">▾</span></a>
+          <div class="dropdown">
+            <a href="director-message.html">Director's Message</a>
+            <a href="principal-message.html">Principal's Message</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Photos <span class="chevron">▾</span></a>
+          <div class="dropdown">
+            <a href="gallery.html">Gallery</a>
+            <a href="infrastructure.html">Infrastructure</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="documents.html" class="nav-link">Documents</a></li>
+        <li class="nav-item"><a href="index.html#contact" class="nav-link btn btn-primary" style="padding:10px 22px;">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <span class="mobile-section-title">▸ Signatories</span>
+    <div class="mobile-submenu" style="display:none;">
+      <a href="director-message.html">Director's Message</a>
+      <a href="principal-message.html">Principal's Message</a>
+    </div>
+    <span class="mobile-section-title">▸ Photos</span>
+    <div class="mobile-submenu" style="display:none;">
+      <a href="gallery.html">Gallery</a>
+      <a href="infrastructure.html">Infrastructure</a>
+    </div>
+    <a href="documents.html">Documents</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="section-label">Life at Subhash Public School</span>
+        <h1>School Gallery</h1>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>Photos</span>
+          <span>›</span>
+          <span>Gallery</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery-section">
+    <div class="container">
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter fade-in">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+        <button class="filter-btn" data-filter="academics">Academics</button>
+        <button class="filter-btn" data-filter="cultural">Cultural</button>
+        <button class="filter-btn" data-filter="awards">Awards</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid stagger">
+
+        <div class="gallery-item fade-in"
+             data-category="events"
+             data-src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&q=85"
+             data-caption="Annual Sports Day 2024 — Opening Ceremony">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=75" alt="Annual Sports Day" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Annual Sports Day 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="academics"
+             data-src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=85"
+             data-caption="Science Exhibition — Grade X Students">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=75" alt="Science Exhibition" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Science Exhibition</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="cultural"
+             data-src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=1200&q=85"
+             data-caption="Annual Cultural Festival — Dance Performance">
+          <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=600&q=75" alt="Cultural Festival" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Cultural Festival — Dance</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="sports"
+             data-src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=85"
+             data-caption="Inter-School Cricket Championship 2024">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=75" alt="Cricket Championship" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Cricket Championship</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="academics"
+             data-src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=1200&q=85"
+             data-caption="Library Reading Programme">
+          <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=600&q=75" alt="Library Reading" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Library Reading Programme</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="awards"
+             data-src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1200&q=85"
+             data-caption="Annual Prize Distribution Ceremony 2024">
+          <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&q=75" alt="Prize Distribution" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Prize Distribution 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="cultural"
+             data-src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1200&q=85"
+             data-caption="Art Exhibition — Student Masterpieces">
+          <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=75" alt="Art Exhibition" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Art Exhibition</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="sports"
+             data-src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85"
+             data-caption="Basketball Finals — District Champions">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75" alt="Basketball Finals" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Basketball Finals</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="events"
+             data-src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=85"
+             data-caption="Founders' Day Celebration 2024">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=75" alt="Founders Day" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Founders' Day 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="academics"
+             data-src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&q=85"
+             data-caption="Robotics Lab — Innovation Challenge">
+          <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=75" alt="Robotics Lab" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">Robotics Innovation Challenge</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="cultural"
+             data-src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&q=85"
+             data-caption="School Choir — Christmas Carol Performance">
+          <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=75" alt="School Choir" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">School Choir Performance</span>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in"
+             data-category="awards"
+             data-src="https://images.unsplash.com/photo-1618558264359-db3f58a1b483?w=1200&q=85"
+             data-caption="CBSE Board Toppers — Felicitation 2024">
+          <img src="https://images.unsplash.com/photo-1618558264359-db3f58a1b483?w=600&q=75" alt="Board Toppers" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-icon">🔍</span>
+            <span class="gallery-cap">CBSE Board Toppers 2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Image Lightbox" aria-modal="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">&#8592;</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">&#8594;</button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:0;">
+            <div class="logo-icon">G</div>
+            <div class="logo-text">
+              <span class="logo-name">Subhash Public School</span>
+              <span class="logo-tagline">Excellence in Education</span>
+            </div>
+          </div>
+          <p class="footer-desc">Nurturing curious minds and confident hearts since 1985.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">f</a>
+            <a href="#" class="social-link">◉</a>
+            <a href="#" class="social-link">▶</a>
+            <a href="#" class="social-link">𝕏</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="infrastructure.html">Infrastructure</a></li>
+            <li><a href="documents.html">Documents</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Signatories</h4>
+          <ul class="footer-links">
+            <li><a href="director-message.html">Director's Message</a></li>
+            <li><a href="principal-message.html">Principal's Message</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span class="contact-text">1420, near Upasana Guest House, Y Block, Kidwai Nagar, Kanpur, Uttar Pradesh 208011 –  </span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span class="contact-text">076170 82020</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <span class="contact-text">info@subhashschool.edu.in</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Subhash Public School. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
